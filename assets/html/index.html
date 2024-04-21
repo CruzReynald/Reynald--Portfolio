@@ -22,7 +22,7 @@
     </div>
   </nav>
 
-  <nav class="hamburger-nav">
+  <nav id="hamburger-nav">
     <div class="logo">Reynald Cruz</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
@@ -38,6 +38,40 @@
       </div>
     </div>
   </nav>
+
+  <section class="hero">
+    <div class="hero-section-pic-container">
+      <img src="../images/profile-pic.png" alt="Reynald Cruz Profile Picture">
+    </div>
+    <div class="hero-section-text-container">
+      <p class="hero-section-p-1">
+        Hello I'm
+      </p>
+      <h1 class="title">
+        Reynald Cruz
+      </h1>
+      <p class="hero-section-p-2">
+        Front End Developer
+      </p>
+      <div class="btn-container">
+        <button class="hero-section-btn-1" onclick="window.open('../images/resume-example.pdf')">
+          Download CV
+        </button>
+
+        <button class="hero-section-btn-2" onclick="location.href='./#contact'">
+          Contact
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="../images/linkedin.png" alt="My LinkedIn profile" class="icon"
+        onclick="location.href='https://www.linkedin.com'">
+
+        <img src="../images/github.png" alt="My Github profile" class="icon"
+        onclick="location.href='https://www.github.com'">
+
+      </div>
+    </div>
+  </section>
 
 
 
